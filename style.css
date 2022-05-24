@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&family=Noto+Sans+Thai&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mitr&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 html {
   scroll-snap-type: y mandatory;
   margin: 0;
@@ -12,7 +12,7 @@ body{
     overflow-x: hidden;
     scroll-snap-align: center;
     scroll-snap-type: mandatory;
-    font-family: 'Mitr', sans-serif;
+    font-family: 'Kanit', sans-serif;
 /*     background: linear-gradient(0deg, #6471D7, #351A77); */
       background: url("http://salehriaz.com/404Page/img/bg_purple.png");
     background-repeat: repeat-x;
@@ -1321,6 +1321,7 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3)
 .text-pg6 i {
   font-size:2.5em;
   margin-top: 20px;
+  color:white;
 }
 .text-pg6 h2 {
   text-align: center;
@@ -1332,4 +1333,96 @@ section {
   align-items: center;
   justify-content: center;
   block-size: 100%;
+}
+.pg8 {
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+}
+.pg8 h3 {
+  text-align: center;
+}
+.card-ex {
+  width: 274px;
+  height:463px;
+  background-color: white;
+  border-radius:20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: center;
+  margin: 30px;
+}
+.card-ex p {
+  color:#48226E;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-size: 1.1em;
+}
+.card-ex .button-link {
+  background-color:#6C366E;
+  color:white;
+  font-size: 1.2em;
+  width:148px;
+  height: 41px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+.card-ex-out {
+  display: flex;
+  justify-content: center;
+}
+.pg9 {
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: center;
+}
+.pg9 h2 {
+  margin-bottom: 2em;
+}
+.pg10 {
+  width: 847px;
+  height: 557px;
+  background-color:white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  border-radius: 10px;
+  position: relative;
+  left:25px;
+}
+.pg10 img {
+  position: relative;
+  top: 95px;
+  left:-177px;
+}
+.pg10 h1{
+  color:#48226E;
+  font-size:1.7em;
+  position: relative;
+  top:-265px;
+  left:140px;
+  font-size: 2em;
+}
+.pg10 h3 {
+  color: #0009;
+  position: relative;
+  top:-250px;
+  left:140px;
+  font-size: 1.3em;
+}
+.pg10 .button-link {
+  background-color:#48226E;
+  color:white;
+  font-size: 1.2em;
+  width:148px;
+  height: 41px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  position: relative;
+  top:-220px;
+  left:135px;
 }
