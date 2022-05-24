@@ -11,6 +11,7 @@ var contents = [`คงเป็นไปไม่ได้ที่จะได
                     `เราจะตั้งอาณานิคมกันอย่างไรบนดาวอังคาร ปัจจุบันได้เริ่มมีโครงการต่าง ๆ<br/>ที่ชี้ชัดถึงการที่มนุษย์จะนำอารยธรรมของตัวเองไปตั้งอยู่ที่นั่น<br/>ตัวอย่างเช่น โครงการ SpaceX ของ Elon Musk`, 
                     `แม้ปกติมนุษย์เราจะเล่นกีฬาภายใต้แรงโน้มถ่วงมาตตลอด<br/>แต่การออกกำลังกายก็เป็นสิ่งที่จำเป็นของนักบินอวกาศ<br/>เหล่านักบินอวกาศจึงพยายามคิดค้นหากิจกรรมที่สนุก และตื่นเต้นกว่าการออกกำัลังกายปกติ`, 
                     'จากการทดลองปลูกพืชในอวกาศหลายต่อหลายครั้ง<br/>ทำให้ค้นพบว่า แรงโน้มถ่วงเป็นปัจจัยที่ส่งผลต่อการงอกแต่ไม่ได้จำเป็น<br/>กล่าวคือ พืชสามารถอยู่ได้แม้ไม่มีแรงโน้มถ่วง และมันจะงอกตามสิ่งเร้าอย่างอื่นอย่างน้ำและแสงแทน'];
+var link = [`https://today.line.me/th/v2/article/MQRyo0`, `https://www.tnnthailand.com/news/world/61821/`, `https://www.mainstand.co.th/344`, `https://spaceth.co/plants-in-space/`];
 var i = 0;
 
 function prev(){
@@ -31,7 +32,7 @@ function setImg(){
 }
 
 function setText(){
-    return document.getElementById("slider_title").innerHTML = texts[i], document.getElementById("slider_content").innerHTML = contents[i];
+    return document.getElementById("slider_title").innerHTML = texts[i], document.getElementById("slider_content").innerHTML = contents[i], document.getElementById("slider_link").setAttribute('href', link[i]);
 }
 
 // เลื่อนวิธีเข้าถึงอวกาศ

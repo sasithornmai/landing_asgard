@@ -176,7 +176,7 @@ body{
   columns: white;
   z-index:1000;
   color:white;
-  margin:5px;
+  /* margin:5px; */
 /*   margin-top:100px; */
 }
 .page3{
@@ -1064,9 +1064,9 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3)
 .column:nth-child(2) {
   display:flex;
 }
-.column:nth-child(3) {
+/* .column:nth-child(3) {
   border-left: 5px solid hsl(32, 87%, 72%);
-}
+} */
 .column img {
   display:block;
   margin:auto;
@@ -1075,7 +1075,9 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3)
   width:50%;
 } */
 #it {
-  height:130px;
+  height:60px;
+  margin-top:42px;
+
 }
 #spaceth {
   width:250px;
@@ -1088,10 +1090,10 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3)
   margin-bottom:0px;
 }
 .column h1 {
-  font-size:250%;
+  font-size:25%;
 }
 .column p {
-  font-size:125%;
+  font-size:25%;
 }
 .card i {
   z-index:200;
